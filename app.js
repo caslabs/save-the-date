@@ -5,5 +5,7 @@ document.body.addEventListener('click', function(e){
        var p = document.createElement("p");
        p.appendChild(userTxt);
        e.target.appendChild(p);
+       e.target.style.backgroundColor="black";
+       e.target.style.color="white";
     }
 });
